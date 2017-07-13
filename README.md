@@ -18,3 +18,7 @@ http://ethanschoonover.com/solarized
 gruvbox theme
 
 https://github.com/morhetz/gruvbox-contrib/tree/master/iterm2
+
+plugin
+
+https://github.com/dbcli/mycli
