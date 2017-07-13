@@ -3,6 +3,7 @@
 zsh tutorial
 
 doubleend.zsh-theme
+
 https://code.tutsplus.com/tutorials/how-to-customize-your-command-prompt--net-24083
 http://stevelosh.com/blog/2010/02/my-extravagant-zsh-prompt/
 
