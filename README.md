@@ -29,3 +29,4 @@
 
 ## plugin
  * https://github.com/dbcli/mycli
+ * https://micro-editor.github.io
