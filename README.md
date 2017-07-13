@@ -8,7 +8,21 @@
 
 ## iterm config 
 * https://www.reddit.com/r/unixporn/comments/5vke7s/osx_iterm2_tmux_vim/
-
+	* use iterm build 3.1.beta.5 or newer
+	* appearance > tab > dark
+	* appearance > windows & tab title > show profile name
+	* appearance > hide scroll bar, disable dim
+	* appearance > uncheck 'show line under title'
+	* profiles > rename profiles to ''
+	* profiles > use dark theme
+	* profiles > set background to #292929 (same as tab color)
+	* profiles > general > cursor > underline, blinking cursor
+	* profiles > general > text rendering > all checked
+	* profiles > font > inconsolata 14
+	* profiles > window > disable blur, transparency
+	* advanced > search > width of left/right margin = 20
+	* advanced > search > height of top/bottom margin = 20
+## themes 
 * solarized theme http://ethanschoonover.com/solarized
 
 * gruvbox theme https://github.com/morhetz/gruvbox-contrib/tree/master/iterm2
