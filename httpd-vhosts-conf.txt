@@ -1,0 +1,104 @@
+# Virtual Hosts
+#
+# Required modules: mod_log_config
+
+# If you want to maintain multiple domains/hostnames on your
+# machine you can setup VirtualHost containers for them. Most configurations
+# use only name-based virtual hosts so the server doesn't need to worry about
+# IP addresses. This is indicated by the asterisks in the directives below.
+#
+# Please see the documentation at
+# <URL:http://httpd.apache.org/docs/2.4/vhosts/>
+# for further details before you try to setup virtual hosts.
+#
+# You may use the command line option '-S' to verify your virtual host
+# configuration.
+
+#
+# VirtualHost example:
+# Almost any Apache directive may go into a VirtualHost container.
+# The first VirtualHost section is used for all requests that do not
+# match a ServerName or ServerAlias in any <VirtualHost> block.
+#
+
+<VirtualHost *:80>
+ServerName localhost
+ErrorLog "/Users/skoolkaholic/Sites/LOG/localhost.log"
+DocumentRoot "/Users/skoolkaholic/Sites/"
+</VirtualHost>
+
+
+<VirtualHost *:80>
+    DocumentRoot "/Users/skoolkaholic/Sites/lucidmoxie/public"
+    ServerName lucidmoxie.dev
+    ServerAlias *.lucidmoxie.dev
+
+    <Directory "/Users/skoolkaholic/Sites/lucidmoxie/public">
+        AllowOverride All
+         Order allow,deny
+         Allow from all
+    </Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+    DocumentRoot "/Users/skoolkaholic/Sites/test"
+    ServerName test.dev
+
+      <Directory "/Users/skoolkaholic/Sites/test">
+        AllowOverride All
+         Order allow,deny
+         Allow from all
+        </Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+    DocumentRoot "/Users/skoolkaholic/Sites/dvd/public"
+    ErrorLog "/Users/skoolkaholic/Sites/LOG/dvd.log"
+    ServerName dvd.dev
+
+        Alias /R18 "/Volumes/WD/ETC/MIGRATED/"
+        Alias /R19 "/Users/skoolkaholic/Downloads/test"
+      <Directory "/Users/skoolkaholic/Sites/dvd/public">
+        AllowOverride All
+         Order allow,deny
+         Allow from all
+        </Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+    DocumentRoot "/Users/skoolkaholic/Sites/dvd/public"
+    ErrorLog "/Users/skoolkaholic/Sites/LOG/dvd.log"
+    ServerName dvd.db
+
+        Alias /R18 "/Volumes/WD/ETC/MIGRATED/"
+        Alias /R19 "/Users/skoolkaholic/Downloads/test"
+      <Directory "/Users/skoolkaholic/Sites/dvd/public">
+        AllowOverride All
+         Order allow,deny
+         Allow from all
+        </Directory>
+</VirtualHost>
+
+
+<VirtualHost *:80>
+    DocumentRoot "/Users/skoolkaholic/Sites/dvd/public"
+    ServerName av.dev
+
+      <Directory "/Users/skoolkaholic/Sites/dvd/public">
+        AllowOverride All
+         Order allow,deny
+         Allow from all
+        </Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+    DocumentRoot "/Users/skoolkaholic/Sites/uarna/public"
+    ServerName uarna.dev
+    ServerAlias *.uarna.dev
+
+      <Directory "/Users/skoolkaholic/Sites/uarna/public">
+        AllowOverride All
+         Order allow,deny
+         Allow from all
+        </Directory>
+</VirtualHost>

@@ -1,0 +1,132 @@
+l##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+127.0.0.1	dvd.dev
+127.0.0.1	dvd.db
+127.0.0.1	lucidmoxie.dev
+127.0.0.1	www.lucidmoxie.dev
+127.0.0.1	store.lucidmoxie.dev
+127.0.0.1	blogger.lucidmoxie.dev
+127.0.0.1	stockist.lucidmoxie.dev
+127.0.0.1	workingpeople.lucidmoxie.dev
+127.0.0.1	wp.lucidmoxie.dev
+127.0.0.1	mobile.lucidmoxie.dev
+127.0.0.1	template.lucidmoxie.dev
+127.0.0.1	mamp.info
+127.0.0.1	av.dev
+127.0.0.1	uarna.dev
+127.0.0.1	www.uarna.dev
+127.0.0.1	store.uarna.dev
+127.0.0.1	wp.uarna.dev
+192.168.0.6	avdb.dev
+192.168.0.6	example.dev
+192.168.0.6	test.dev
+192.168.0.6:9091	torrent.local
+192.168.0.1 modem.local
+
+# redirect reddit
+151.101.129.140 reddit.com
+151.101.129.140 www.reddit.com
+151.101.129.140 np.reddit.com
+151.101.129.140 bt.reddit.com
+151.101.129.140 m.reddit.com
+107.23.11.190 out.reddit.com
+151.101.129.140 oauth.reddit.com
+151.101.45.140 ssl.reddit.com
+
+# redirect rarbg.to
+185.37.100.122 rarbg.to
+
+# redirect bakabt.com
+103.224.182.241 bakabt.com
+
+
+# redirect r18
+202.6.246.238 r18.com
+
+# Blok Iklan Telkom Indihome
+127.0.0.1 cfs.u-ad.info
+127.0.0.1 cfs2.u-ad.info
+127.0.0.1 u-ad.info
+127.0.0.1 cfs.uzone.id
+127.0.0.1 cfs2.uzone.id
+127.0.0.1 uzone.id
+127.0.0.1 v3.mercusuar.uzone.id
+127.0.0.1 mercusuar.uzone.id
+127.0.0.1 *.uzone.id
+127.0.0.1 internetpositif.uzone.id
+127.0.0.1 kendedes.uzone.id
+
+
+
+127.0.0.1 192.150.14.69
+127.0.0.1 192.150.18.101
+127.0.0.1 192.150.18.108
+127.0.0.1 192.150.22.40
+127.0.0.1 192.150.8.100
+127.0.0.1 192.150.8.118
+127.0.0.1 209-34-83-73.ood.opsource.net
+127.0.0.1 3dns-1.adobe.com
+127.0.0.1 3dns-2.adobe.com
+127.0.0.1 3dns-2.adobe.com
+127.0.0.1 3dns-3.adobe.com
+127.0.0.1 3dns-3.adobe.com
+127.0.0.1 3dns-4.adobe.com
+127.0.0.1 3dns.adobe.com
+127.0.0.1 activate-sea.adobe.com
+127.0.0.1 activate-sea.adobe.com
+127.0.0.1 activate-sjc0.adobe.com
+127.0.0.1 activate-sjc0.adobe.com
+127.0.0.1 activate.adobe.com
+127.0.0.1 activate.adobe.com
+127.0.0.1 activate.wip.adobe.com
+127.0.0.1 activate.wip1.adobe.com
+127.0.0.1 activate.wip2.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 activate.wip4.adobe.com
+127.0.0.1 adobe-dns-1.adobe.com
+127.0.0.1 adobe-dns-2.adobe.com
+127.0.0.1 adobe-dns-2.adobe.com
+127.0.0.1 adobe-dns-3.adobe.com
+127.0.0.1 adobe-dns-3.adobe.com
+127.0.0.1 adobe-dns-4.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 adobe.activate.com
+127.0.0.1 adobeereg.com
+127.0.0.1 crl.verisign.net
+127.0.0.1 CRL.VERISIGN.NET.*
+127.0.0.1 ereg.adobe.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 ereg.wip.adobe.com
+127.0.0.1 ereg.wip1.adobe.com
+127.0.0.1 ereg.wip2.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 ereg.wip4.adobe.com
+127.0.0.1 hl2rcv.adobe.com
+127.0.0.1 ood.opsource.net
+127.0.0.1 practivate.adobe
+127.0.0.1 practivate.adobe.*
+127.0.0.1 practivate.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 practivate.adobe.ipp
+127.0.0.1 practivate.adobe.newoa
+127.0.0.1 practivate.adobe.ntp
+127.0.0.1 tss-geotrust-crl.thawte.com
+127.0.0.1 wip.adobe.com
+127.0.0.1 wip1.adobe.com
+127.0.0.1 wip2.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 wip4.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
+255.255.255.255	broadcasthost
+::1             localhost
